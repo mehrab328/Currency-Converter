@@ -1,3 +1,16 @@
+/* -------------------------
+-------- BOOTSTRAP --------
+-------------------------- */
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* -------------------------
+-------- HTML TAGS --------
+-------------------------- */
+
 * {
   box-sizing: border-box;
 }
@@ -9,41 +22,59 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  margin: 0;
+  margin-top: 2rem;
   padding: 20px;
 }
 
 h1 {
   color: darkcyan;
-  text-align: center;
-  display: block;
   margin: 1rem;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2rem;
+  width: 100%;
 }
 
 p {
-  text-align: center;
   margin: 1rem;
+  width: 100%;
+}
+
+/* ----------------------------------
+-------- USER DEFINED CLASSES --------
+-------------------------- */
+
+/* INTRO PART */
+
+.intro {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .image {
   height: 125px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 125px;
+  margin-top: 1.5rem;
 }
 
+/* CONVERSION PART */
+
 .holder {
-  display: block;
+    width: 50%;
+    margin: auto;
 }
 
 .currency-row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 40px 0;
+  justify-content: space-between;
+
+  /* justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  margin: auto; */
 }
 
 .currency-row select {
@@ -55,12 +86,13 @@ p {
   text-align: right;
   background: transparent;
   font-size: 1.5rem;
+  width: 50%;
 }
 
 button {
   color: white;
   background-color: teal;
-  font-size: .8rem;
+  font-size: 0.8rem;
   border-radius: 5px;
   cursor: pointer;
   padding: 8px;
