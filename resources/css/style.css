@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: darkcyan;
+  text-align: center;
+  display: block;
+  margin: 1rem;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+p {
+  text-align: center;
+  margin: 1rem;
+}
+
+.image {
+  height: 125px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.holder {
+  display: block;
+}
+
+.currency-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.currency-row select {
+  font-size: 1.5rem;
+}
+
+.currency-row input {
+  border: 0;
+  text-align: right;
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+button {
+  color: white;
+  background-color: teal;
+  font-size: .8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px;
+}
