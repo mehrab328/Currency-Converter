@@ -16,7 +16,7 @@ const api_call = () => {
         .then(res => res.json())
         .then(data => {
             const r = data.conversion_rates[val2];
-            inp2.value = (inp1.value * r).toFixed(2);
+            inp2.value = (inp1.value * r).toFixed(4);
             exrate.innerText = `1 ${val1} = ${r} ${val2}`;
         })
 

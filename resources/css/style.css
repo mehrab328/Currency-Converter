@@ -78,14 +78,14 @@ p {
 }
 
 .currency-row select {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .currency-row input {
   border: 0;
   text-align: right;
   background: transparent;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   width: 50%;
 }
 
